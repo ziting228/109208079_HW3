@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+    @media print and (min-width: 1060px){
+        body{ background-color: white;
+              font-family: 'Times New Roman', Times, serif;
+              font-size: 16pt;}
+    }
+
+    @media screen and (min-width: 480px){
+        body{ background-color: seashell;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            flex-direction: column;}
+    }
+
+</style>
+<head>
+    <link rel = "stylesheet" href = "external.css">
+</head> 
+<body>
+<form>
+
+<div id ="css_table">
+    <div class = "css_tr">
+        <div class = "css_td"> First Name:<input name="1" type = "text"  placeholder ="first name"> </div>
+    </div>
+
+    <div class ="css_tr">
+        <nobr class = "css_td"> Last Name:<input name="2" type = "text"  placeholder ="last name"> </nobr>
+        <p class ="float"> Middle Name:<input name="2" type = "text"  placeholder ="(optional) middle name"> </p>
+
+    </div>
+
+
+    <div class = "css_tr">
+        <div class = "css_td"> Age:<input name="3" type = "text" placeholder ="always 18?"> </div>
+    </div>
+
+    <div class = "css_tr">
+        <div class = "css_td"> Feedback <textarea rows="4" cols ="50"> </textarea>
+    </div>
+
+    <img src = "helloCat.jpg" alt = "can't show" class="img">
+
+</div>
+</form>
+</body>
+
+</html>

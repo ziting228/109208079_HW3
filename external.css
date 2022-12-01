@@ -1,0 +1,36 @@
+#css_table{
+    display:table;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.css_tr{
+    display: table-row;
+    width: 20%;
+    height: 10%;
+    padding:5%
+
+}
+
+.css_td {
+    display: table-cell;
+    width: 20%;
+    height: 10%;
+    padding:5%
+}
+
+.float {
+    float: right;
+    margin-bottom: -1%;
+    background-color: lightgrey;
+    
+
+}
+
+.img{
+    width: 120%;
+    height: 80%;
+    margin-left: -100%;
+
+}
+
